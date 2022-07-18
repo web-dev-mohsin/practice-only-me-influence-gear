@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Main Header section
+
+*/
+header{
+    margin-top: 50px;
+}
+.header-container{
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+     
+}
+.main-manu{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.menu-iteam{
+    display: flex; 
+    align-items: center;
+     
+}
+.menu-iteam div{
+    padding-right: 20px; 
+    
+     
+    
+}
+ 
+
+.menu-iteam div a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+/* home banner */
+.home-banner-section{
+    width: 90%; 
+    margin: auto;
+}
+.home-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.banner-details .heading h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+ .details p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ 
+.home-banner>div{
+    width: 50%;  
+}
+.home-banner img{
+    border-radius: 50%;
+    border: 1px solid rgb(207, 205, 205);
+}
