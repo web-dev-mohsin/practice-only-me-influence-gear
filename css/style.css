@@ -175,3 +175,40 @@ header{
     color: rgb(180, 4, 72);
     margin-right: 100px;
 }
+
+/* featured-products */
+.featured-products{
+    width: 90%;
+    margin: auto;
+}
+.featured-products-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center; 
+    row-gap: 20px;
+    padding: 80px;
+}
+.featured-products-details h2{
+  font-weight: 1500;
+   
+  color: rgb(51, 51, 51);
+     
+}
+
+.featured-products-details p{ 
+    color: rgb(51, 51, 51);
+    margin-bottom: 30px;
+       
+  }
+
+  .featured-products-details a{ 
+    background-color: rgb(180, 4, 72);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+       
+  }
+.featured-product-image img{
+    width: 300px;
+}
